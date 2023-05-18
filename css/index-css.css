@@ -46,4 +46,114 @@
 
   #peliculas p {
     font-size: 20px;
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+    justify-content: center;
+  }
+
+  /**
+  Video local
+  **/
+
+  /* Estilos para el reproductor de video */
+  video {
+    width: 80%;
+    max-width: 80%;
+  }
+
+  /* Estilos para los controles */
+  video::-webkit-media-controls {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+  }
+
+  video::-webkit-media-controls-play-button {
+    background-color: transparent;
+    color: #fff;
+  }
+
+  video::-webkit-media-controls-volume-slider {
+    width: 100px;
+  }
+
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+  /**
+   Iframe
+  **/
+
+  .iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  /* Estilos para el iframe */
+  .iframe-container iframe {
+    width: 80%;
+    height: 80%;
+  }
+
+  /**
+  TODO centrar mejor textos
+   /
+
+
+   /**
+    Card
+   **/
+
+   .card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-content h2 {
+    margin-top: 0;
+  }
+  
+  .card-content p {
+    font-size: 16px;
+  }
+  
+  .card-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  
+  .card-content button:hover {
+    background-color: #0069d9;
   }

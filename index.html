@@ -10,7 +10,6 @@
 </head>
   <body>
     <header> 
-        <!-- <img src="./img/ticket-logo.png" alt="Logo de DePelicula"> -->
         <nav id="menu">
             <a href="./index.html">
               <img src="./img/ticket-logo.png" alt="Logo de DePelicula" title="DePelicula">
@@ -75,9 +74,15 @@
                   </p>
 
                   <h2>Mira el trailer oficial de la pelicula:</h2>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/DmCZoiCp5C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  <p>Desde youtube</p>
+                  <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/DmCZoiCp5C0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
 
-
+                  <p>O desde nuestro sitio sin publicidad</p>
+                  <div class="video-container">
+                    <video src="multimedia/trailerOficial.mp4" controls autoplay></video>
+                  </div>
                   <div>
                     <p>O escucha el audio de una de las escenas mas elegidas por el público</p>
                     <audio controls>
@@ -92,8 +97,23 @@
 
 
                   <div>
-                    <h2>Recomendación directa</h2> <!-- Pestana actual abrir-->
-                    <p>pelicula mas relacionada</p>
+                    <h2>Recomendación directa</h2> <!-- Pestana actual abrir--> 
+                      <div id="destacadas"> 
+                        <!-- Cards -->
+                            <div class="card">
+                                <img src="./img/sonic2.png" alt="Sonic: la pelicula"> <!-- centrar -->
+                                <div class="card-content"> 
+                                  <h2>Sonic: La película (2022)</h2>
+                                  <p>El erizo volvio</p>
+                                </div>
+                                <div class="button-container">
+                                  <a href="./desarrollo.html">
+                                    <a class="btn" href="./encuesta.html" target="_self">Ver mas</a>
+                                  </a>
+                                </div>
+                            </div>  
+                        <!-- Fin Cards -->
+                    </div>
                   </div>
         
                   <div>
@@ -105,12 +125,8 @@
                   <div>
                     <h2>¿Te gustó el artículo? Apoyanos dándonos tu opinión en la siguiente encuesta</h2> <!-- Abre en pagina nueva-->
                     <a class="btn" href="./encuesta.html" target="_blank">Encuesta</a>
-                  </div>
-
-
-              </div>
-              <hr>
-               
+                  </div> 
+              </div>  
             </div>
           </section>
     </main>
