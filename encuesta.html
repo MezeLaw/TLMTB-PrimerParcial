@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>DePelicula</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <!-- Custom styles--> 
+    <link rel="stylesheet" href="./css/cross-page-styles.css">
+    <link rel="stylesheet" href="./css/encuesta-css.css">
+</head>
+  <body>
+    <header> 
+        <nav id="menu">
+            <a href="./index.html">
+              <img src="./img/ticket-logo.png" alt="Logo de DePelicula" title="DePelicula">
+            </a> 
+          <ul>
+            <li>
+              <a href="./">Accion</a>
+            </li> 
+            <li>
+              <a href="#">Infantiles</a>
+            </li>
+          </ul>
+        </nav> 
+    </header> 
+    
+    
+    <main>
+        <section id="encuesta">
+            <div>
+              <div> 
+                  <h1 class="encuesta-title">
+                    Encuesta de satisfacción
+                  </h1>  
+      
+                  <div class="container">
+                    <form>
+                        <label for="nombre">Nombre y apellido:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                      
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                      
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                      
+                        <label for="direccion">Dirección:</label>
+                        <input type="text" id="direccion" name="direccion" required>
+                      
+                        <label>Género:</label>
+                        
+                        <label for="genero1">Masculino</label><input type="radio" id="genero1" name="genero" value="masculino">
+                        
+                        <label for="genero2">Femenino</label><input type="radio" id="genero2" name="genero" value="femenino">
+                        <label for="genero3">Otro</label><input type="radio" id="genero3" name="genero" value="otro">
+                        
+                      
+                        <label>Géneros favoritos</label>
+                        <input type="checkbox" id="accion" name="accion" value="Accion">
+                        <label for="accion">Accion</label>
+                        <input type="checkbox" id="drama" name="drama" value="Drama">
+                        <label for="preferencia2">Dramas</label>
+                        <input type="checkbox" id="comedia" name="comedia" value="comedia">
+                        <label for="comedia">Comedias</label>
+                      
+                        <label>Elija su lenguaje favorito
+                            <input list="favorite-audio" name="favorite-audio"/></label>
+                            <datalist id="favorite-audio">
+                              <option value="Ingles">
+                              <option value="Español">
+                              <option value="Ruso">
+                              <option value="Turco">
+                              <option value="Danes">
+                              <option value="Portugues">
+                            </datalist>
+                      
+                        <label for="comentarios">Comentarios:</label>
+                        <textarea id="comentarios" name="comentarios" rows="4" cols="30"></textarea>
+                      
+                        <button type="submit">Enviar</button>
+                      </form>
+                  </div>
+                 
+              </div>  
+            </div>
+          </section>
+    </main>
+
+    <section id="footer">
+        <div>
+          <footer class="">
+              <div>
+                <div >
+                  <div>
+                    <h5>Información de contacto</h5>
+                    <p>Alumno: Abogado , Martin Ezequiel</p>
+                    <p>Correo electrónico: mezequielabogado@gmail.com</p>
+                  </div>
+                  <div class="">
+                    <h5>Enlaces útiles</h5>
+                    <ul class="">
+                      <li><a href="#">Acerca de nosotros</a></li>
+                      <li><a href="#">Términos y condiciones</a></li>
+                      <li><a href="#">Política de privacidad</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+                <div class="">
+                  <p>Derechos reservados © 2023 DePelicula</p>
+                </div>
+            </footer>
+      </div>
+      </section>
+  </body>
+</html>

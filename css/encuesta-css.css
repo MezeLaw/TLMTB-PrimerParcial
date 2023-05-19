@@ -1,0 +1,77 @@
+.encuesta-title { 
+    text-align: center;
+    font-size: 4rem !important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.subtitle {
+    text-align: center; 
+    font-size: 2rem;
+    margin-bottom: 70px;
+} 
+
+#encuesta{
+    margin-top: 100px !important;
+}
+
+/**
+ Estilos pal form
+**/
+form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea, datalist {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+
+  input[type="radio"] + label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  input[type="checkbox"] + label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
