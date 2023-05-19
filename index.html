@@ -17,10 +17,7 @@
           <ul>
             <li>
               <a href="./">Accion</a>
-            </li>
-            <li>
-              <a href="./">Comedia</a>
-            </li>
+            </li> 
             <li>
               <a href="./">Infantiles</a>
             </li>
@@ -72,7 +69,7 @@
                      A <a href="https://www.xataka.com.mx/cine-y-tv/nintendo-cine-padre-mario-shigeru-miyamoto-dice-que-definitivamente-hara-peliculas">decir</a> 
                      de Shigeru Miyamoto, seguramente habrá más películas inspiradas en otras propiedades intelectuales de Nintendo.
                   </p>
-
+                  <br>
                   <h2>Mira el trailer oficial de la pelicula:</h2>
                   <p>Desde youtube</p>
                   <div class="iframe-container">
@@ -85,10 +82,12 @@
                   </div>
                   <div>
                     <p>O escucha el audio de una de las escenas mas elegidas por el público</p>
-                    <audio controls>
-                      <source src="./multimedia/bowser.mp3" type="audio/mp3">
-                      Tu navegador no soporta la reproducción de audio.
-                    </audio>
+                    <div class="container">
+                      <audio controls>
+                        <source src="./multimedia/bowser.mp3" type="audio/mp3">
+                        Tu navegador no soporta la reproducción de audio.
+                      </audio>
+                    </div>
                   </div>
                   <h2>Nuestra critica</h2>
                   <p>
@@ -98,13 +97,12 @@
 
                   <div>
                     <h2>Recomendación directa</h2> <!-- Pestana actual abrir--> 
-                      <div id="destacadas"> 
+                      <div id="destacadas" class="container"> 
                         <!-- Cards -->
                             <div class="card">
-                                <img src="./img/sonic2.png" alt="Sonic: la pelicula"> <!-- centrar -->
+                                <img src="./img/sonic.png" alt="Sonic: la pelicula"> <!-- centrar -->
                                 <div class="card-content"> 
-                                  <h2>Sonic: La película (2022)</h2>
-                                  <p>El erizo volvio</p>
+                                  <h2>Sonic: La película (2022)</h2> 
                                 </div>
                                 <div class="button-container">
                                   <a href="./desarrollo.html">
@@ -118,14 +116,23 @@
         
                   <div>
                     <h2>También pueden interesarte</h2> <!-- Link con imagenes a peliculas - usare un externo ... -->
-                    recomendaciones
+                    <div class="container">
+                          <a href="https://decine21.com/peliculas/tetris-46727">
+                            <img src="./img/tetris-46727-c.jpg" alt="Tetris" class="extra-reco">
+                          </a>
+                          <a href="https://decine21.com/peliculas/fast-x-46429">
+                            <img src="./img/rapidoyfurioso.jpeg" alt="Rapido y Furioso" class="extra-reco">
+                          </a>
+                    </div>
                   </div>
         
-        
-                  <div>
+    
+                  <div class="container">
                     <h2>¿Te gustó el artículo? Apoyanos dándonos tu opinión en la siguiente encuesta</h2> <!-- Abre en pagina nueva-->
-                    <a class="btn" href="./encuesta.html" target="_blank">Encuesta</a>
                   </div> 
+                  <div class="container">
+                    <a class="btn" href="./encuesta.html" target="_blank">Encuesta</a>
+                  </div>
               </div>  
             </div>
           </section>

@@ -14,12 +14,13 @@
     justify-content: start;  
     align-items: center; 
     height: 80px; 
+    z-index: 10;
   } 
   
   #menu a {
     color: #fff;
     text-decoration: none;
-    display: flex; 
+    display: block; 
     padding: 1rem;
   }
   
@@ -152,4 +153,27 @@
 
   .btn:hover {
     background-color: #555;
+  }
+
+
+  /* Margenes a elementos de texto */
+
+  p {
+    font-size: 20px;
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  h1 { 
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+    justify-content: center;
+  }
+
+  h2 {
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+    justify-content: center;
   }
