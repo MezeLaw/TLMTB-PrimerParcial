@@ -36,7 +36,7 @@ form {
   input[type="text"],
   input[type="email"],
   input[type="tel"],
-  textarea, datalist {
+  textarea {
     width: 100%;
     padding: 5px;
     margin-bottom: 10px;
@@ -49,12 +49,6 @@ form {
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
-  }
-
-  input[type="radio"] + label {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
   }
 
   input[type="checkbox"] + label {
