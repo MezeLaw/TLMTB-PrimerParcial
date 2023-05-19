@@ -75,38 +75,45 @@
     padding: 20px;
     text-align: center;
     font-size: 14px;
-    margin-top: 2vh;
+    margin-top: auto;
   }
-  
+
   #footer h5 {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
   }
-  
+
   #footer p {
     margin: 0;
     line-height: 1.5;
   }
-  
+
   #footer ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
-  
+
   #footer li {
     margin-bottom: 5px;
   }
-  
+
   #footer a {
     color: #333;
     text-decoration: none;
   }
-  
+
   #footer a:hover {
     text-decoration: underline;
   }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+ 
 
   /*
     Font

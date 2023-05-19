@@ -1,5 +1,6 @@
 #peliculas{
     margin-top: 100px !important;
+    margin-bottom: 20px !important;
 }
  
 .estreno-title { 
@@ -52,8 +53,7 @@
   /* Estilos para el reproductor de video */
   video {
     width: 80%;
-    max-width: 80%;
-    z-index: -1;
+    max-width: 80%; 
   }
 
   /* Estilos para los controles */
@@ -77,12 +77,11 @@
   .video-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: center; 
   }
 
 
-  /**
+   /**
    Iframe
   **/
 
@@ -99,11 +98,7 @@
     height: 80%;
   }
 
-  /**
-  TODO centrar mejor textos
-   /
-
-
+   
    /**
     Card
    **/
